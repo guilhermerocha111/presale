@@ -39,19 +39,13 @@ import axios from "axios";
 const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
 // console.log("Is dark mode?", isDarkMode);
 const firebaseConfig = {
-  apiKey: "AIzaSyC0h7zy2gy9MjVcmkeQLcIoqVw0jIbRHxw",
-
-  authDomain: "metadata-3370d.firebaseapp.com",
-
-  projectId: "metadata-3370d",
-
-  storageBucket: "metadata-3370d.firebasestorage.app",
-
-  messagingSenderId: "822649245544",
-
-  appId: "1:822649245544:web:241afbdad201927ea590dd",
-
-  measurementId: "G-RK523XV56E",
+  apiKey: "AIzaSyBqaIcXc2nCmcnamHql4vslkyUuMeaMDK0",
+  authDomain: "food-delivery-fa313.firebaseapp.com",
+  projectId: "food-delivery-fa313",
+  storageBucket: "food-delivery-fa313.firebasestorage.app",
+  messagingSenderId: "132220934048",
+  appId: "1:132220934048:web:ca1a6c8d532039f14ef6c5",
+  measurementId: "G-884J7HRXJ5"
 };
 
 // Initialize Firebase
